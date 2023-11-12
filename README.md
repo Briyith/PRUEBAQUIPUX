@@ -1,5 +1,6 @@
 # PRUEBAQUIPUX
 
+
 1. Implemente utilizando MAVEN, JPA, en su IDE Favorito y usando las
 bibliotecas Java de su elección un conjunto de API cuyo contrato se detalla
 a continuación:
@@ -62,17 +63,22 @@ Canción: Cada canción tiene un título, nombre del artista, álbum, año y gé
 "genero": ""
 }
 ● Implementar autenticación y autorización (preferiblemente con JWT).
+
 ● Implemente una capa de persistencia en una base de datos runtime
 (Sugerencia h2).
+
 ● Probar la aplicación usando alguna de las extensiones para REST en el
 navegador (ej Advanced REST Client para Chrome o Postman) y entregar
 cliente configurado.
+
 ● Implementar pruebas unitarias.
+
 ● Para el género se debe consumir el servicio de spotify, el cual le retornará una lista
 de géneros, para esto se debe crear una cuenta que no tarda más de 10 minutos y
 con la colección de postman adjunta se pueden guiar en la implementación del
 consumo desde java, este servicio es para tenerl a nível de back y será insumo para
 el siguiente ejercicio.
+
 Url configuración developer spotify (Creación de cuenta y obtener token)
 https://stackoverflow.com/questions/60659902/how-to-get-oauth-token-from-spotify
 Postman con categorías musicales
