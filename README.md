@@ -29,10 +29,13 @@ Si la lista no existe debe devolver un “404 Not
 Found”.
 
 Para la implementación de la API, tener en cuenta:
+
 ● La representación JSON de los recursos del servicio es:
 
 Lista de Reproducción: Una lista de reproducción tiene nombre, descripción y un
 conjunto de canciones.
+
+
 {
 "nombre": "Lista 1",
 "descripcion": "Lista de canciones de Spotify",
@@ -62,6 +65,7 @@ Canción: Cada canción tiene un título, nombre del artista, álbum, año y gé
 "anno": "",
 "genero": ""
 }
+
 ● Implementar autenticación y autorización (preferiblemente con JWT).
 
 ● Implemente una capa de persistencia en una base de datos runtime
